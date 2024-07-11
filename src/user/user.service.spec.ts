@@ -7,6 +7,9 @@ import {
   MockedConfigurationManager,
 } from '../configuration/configuration-manager';
 
+import 'dotenv/config';
+
+
 const userObject = {
   id: '5fe0cce861c8ea54018385ae',
   firstName: 'Lance',
